@@ -18,7 +18,7 @@
 }
 
 body {
-    background-color: var(--cor1);
+    background-color: var(--cor5);
     font-family: var(--fonte-padrao);
 }
 
@@ -51,10 +51,18 @@ header {
 }
 
 .menu a {
-    color: black;
+    color: var(--cor1);
+    padding: 10px;
+    border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
+    transition: duration 0.5s;
     margin-right: 15px;
+}
+
+.menu > a:hover {
+    background-color: var(--cor1);
+    color: var(--cor2);
 }
 
 section.sobre {
@@ -69,7 +77,7 @@ section.sobre {
     width: 900px;
     height: 900px;
     border-radius: 50%;
-    background-color: #017143;
+    background-color: var(--cor1);
 }
 
 .social-media {
@@ -80,8 +88,8 @@ section.sobre {
 
 .social-media img {
     display: block;
-    width: 20px;
-    margin: 20px 0;
+    width: 100px;
+    margin: 10px 0;
 }
 
 .texto-sobre {
@@ -102,7 +110,7 @@ section.sobre {
 
 .texto-sobre button {
     border: 0;
-    background-color: #017143;
+    background-color: var(--cor1);
     color: white;
     border-radius: 10px;
     width: 100px;
