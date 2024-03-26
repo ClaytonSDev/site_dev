@@ -98,15 +98,15 @@ section.sobre {
 }
 
 .texto-sobre h1 {
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
 }
 
 .texto-sobre p{
-    text-align: right;
-    margin: 20px 0;
+    text-align: center;
+    margin: 30px ;
     color: black;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: bold;
     max-width: 600px;
 }
@@ -123,4 +123,9 @@ section.sobre {
 
 .center, .texto-sobre {
     text-align: center;
+}
+
+.container-historia {
+    float: right;
+
 }
