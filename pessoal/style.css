@@ -73,10 +73,10 @@ section.sobre {
 .extras{
     position: absolute;
     padding: 150px;
-    right: 600px;
-    width: 2400px;
-    height: 2400px;
-    border-radius: 50%;
+    right: 950px;
+    width: 1950px;
+    height: 1800px;
+    border-radius: 25%;
     background-color: var(--cor1);
 }
 
